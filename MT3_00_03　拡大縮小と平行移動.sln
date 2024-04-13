@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MT3_00_03　拡大縮小と平行移動", "MT3_00_03　拡大縮小と平行移動.vcxproj", "{BF3F3CF7-0356-4664-8B99-4452BB91735D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3F3CF7-0356-4664-8B99-4452BB91735D}.Debug|x64.ActiveCfg = Debug|x64
+		{BF3F3CF7-0356-4664-8B99-4452BB91735D}.Debug|x64.Build.0 = Debug|x64
+		{BF3F3CF7-0356-4664-8B99-4452BB91735D}.Release|x64.ActiveCfg = Release|x64
+		{BF3F3CF7-0356-4664-8B99-4452BB91735D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34C305E0-EF11-41AA-9A6E-E2703BF92657}
+	EndGlobalSection
+EndGlobal
