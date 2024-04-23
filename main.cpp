@@ -108,6 +108,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	};
 
 
+	Vector3 transformed = Transform(point, transformMatrix);
+	Matrix4x4 translateMatrix = MakeTranslateMatrix(translate);
+	Matrix4x4 scaleMatrix = MakeScaleMatrix(scale);
+
+
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
 		// フレームの開始
@@ -120,11 +125,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓更新処理ここから
 		///
-
-
-		Vector3 transformed = Transform(point, transformMatrix);
-		Matrix4x4 translateMatrix = MakeTranslateMatrix(translate);
-		Matrix4x4 scaleMatrix = MakeScaleMatrix(scale);
 
 
 		///
